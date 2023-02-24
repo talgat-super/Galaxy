@@ -1,0 +1,365 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+     background-color: #000000;
+}
+.header{
+    margin: 0px 50px;
+    padding-top: 20px;
+}
+.header-logo{
+    margin-right: 150px;
+}
+
+.containerr{
+    background-image:url('../img/Guardians-of-the-GalaxyGeekster.ru_.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.header-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.nav-item{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 140px;
+    transition: color 0.3s linear;
+    color:aqua;
+}
+.nav-item:hover{
+    color: red;
+    transition: color 0.3s linear;
+}
+.header-down{
+    position: relative;
+    width: 600px;
+    padding-left: 100px;
+}
+.header-title{
+    color: #3673E8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: right;
+    position: absolute;
+    left: 0;
+    margin-top:300px;
+    margin-bottom: 12px;
+    
+}
+span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #FF16B0;
+    font-weight: 700;
+    padding-right: 30px;
+}
+.arrow{
+    width: 72px;
+    height: 65px;
+    background-color: #DC0404;
+    margin-left: 350px;
+   margin-top: 40px;
+   border-radius: 100px;
+
+}
+.arrow:hover{
+    background-color: aqua;
+    transition: color 0.3s linear;
+}
+.main-img{
+   margin-right: 17px;
+   margin-top: 13px;
+}
+.words{
+    background-image: url(/img/image\ 3\ \(2\).jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.header-sub{
+    position: relative;
+    display: flex;
+}
+.words-title{
+    width: 300px;
+    height: 410px;
+    background-color: black;
+    margin: 150px 581px 98px 54px;
+    text-align: center;
+    position: absolute;
+    opacity: 0.9; 
+    border-radius: 30px;
+}
+.img-pop{
+    margin-left: 340px;
+    padding-top: 315px;
+}
+p{
+    color: #5f90ec;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 15px;
+}
+.enot{
+    padding-left: 100px;
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #ff4747;
+    font-style: italic;
+}
+.title-main{
+    color: #00e1ff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-top: 50px;
+    margin: 10px 10px;
+}
+.words{
+    display: flex;
+    position: relative;
+}
+.hub{
+    width: 660px;
+    height: 410px;
+    background-color: #000000;
+    
+    margin-left: 80px;
+    opacity: 0.9;
+    margin-top: 150px;
+    border-radius: 30px;
+    display: flex;
+   
+}
+
+.img-gamora{
+    width: 130px;
+    height: 190px;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+
+.img-man{
+    width: 140px;
+    height: 190px;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 180px;
+    
+}
+
+.img-tot{
+    width: 140px;
+    height: 190px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left:20px ;
+}
+.img-grut{
+    width: 140px;
+    height: 190px;
+    border-radius: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 180px;
+}
+.ak img{
+    cursor: pointer;
+}
+.info{
+    display: none;
+    margin-top: 10px;
+}
+.three-img{
+    display: flex;
+    background-image: url(/img/image\ 5\ \(1\).png);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.only-images{
+    width: 1500px;
+    height: 700px ;
+  position: relative;
+    display: block;
+}
+.jer{
+    width: 133px;
+    height: 96px;
+    background-color: #DCED13;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+
+.jer-img{
+    height: 74px;
+    width: 81px;
+    padding-top: 11px;
+    padding-left: 25px;
+ 
+}
+.mercu{
+    width: 133px;
+    height: 96px;
+    background-color: #2094FF;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 480px;
+}
+.mercu-img{
+    height: 74px;
+    width: 81px;
+    padding-top: 11px;
+    padding-left: 25px;
+}
+.pluton{
+    width: 133px;
+    height: 96px;
+    background-color: #424243;
+    border-radius: 50px;
+    margin-top: 4px;
+    margin-left: 120px;
+}
+.pluton-img{
+    height: 74px;
+    width: 81px;
+    padding-top: 11px;
+    padding-left: 25px;
+}
+.nep{
+    width: 133px;
+    height: 96px;
+    background-color: #A51414;
+    border-radius: 50px;
+    margin-top: 45px;
+    margin-left: 450px;
+}
+.nep-img{
+    height: 74px;
+    width: 81px;
+    padding-top: 11px;
+    padding-left: 25px;
+}
+.son{
+    width: 133px;
+    height: 96px;
+    background-color: #A51414;
+    border-radius: 50px;
+    
+ 
+}
+.son-img{
+    height: 61px;
+    width: 122px;
+    padding-top: 11px;
+    padding-left: 5px;
+}
+.satu{
+    width: 133px;
+    height: 115px;
+    background-color: #38E70D;
+    border-radius: 50px;
+    margin-left: 800px;
+    margin-bottom: 150px;
+
+}
+.satu-img{
+    height: 100px;
+    width: 122px;
+    padding-top: 11px;
+    padding-left: 5px;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-wrap:wrap;
+}
+
+.planet {
+	position: relative;
+    transition: all 0.5s ease;
+    
+}
+
+
+.planet .description {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	opacity: 0;
+	visibility: hidden;
+    transition: all 0.5s ease;
+}
+
+
+.planet:hover .description {
+	opacity: 1;
+	visibility: visible;
+    transform: scale(1.2);
+}
+.img-zem{
+    width: 150px;
+    height: 120px;
+    margin-bottom: 500px;
+}
+.img-son{
+    width: 130px;
+    height: 110px;
+    padding-top: 350px;
+    padding-left: 100px;
+}
+.img-ura{
+    width: 150px;
+    height: 120px;
+    padding-bottom: 250px;
+}
+.img-sat{
+    width: 200px;
+    height: 100px;
+    padding-bottom: 500px;
+}
+.img-sons{
+    width: 130px;
+    height: 120px;
+    padding-top: 200px;
+}
+.img-nep{
+    width: 120px;
+    height: 110px;
+    padding-bottom: 500px;
+}
+.img-mers{
+    width: 130px;
+    height: 120px;
+    padding-top: 500px;
+}
+.img-mer{
+    width: 130px;
+    height: 120px;
+    padding-right: 15px;
+}
